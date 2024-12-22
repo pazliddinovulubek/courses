@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.main-img {
+  background-image: url('../assets//Image.png');
+  background-size: 1000px;
+  height: 850px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  animation: zoom-in 10s ease-in-out infinite; 
+}
+@keyframes zoom-in {
+  0% {
+    background-size: 90%; /* Boshlanishda kichik tasvir */
+  }
+  50% {
+    background-size: 120%; /* O'rtada tasvir to'liq */
+  }
+  100% {
+    background-size: 90%; /* Yakuniy holatda yana kichiklashadi */
+  }
+}
+.wrapper {
+  background: rgb(5, 5, 10);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 40px;
+}
+
+.center p {
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid wheat;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .7s;
+}
+
+.center p:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.center input {
+  width: 220px;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+font-size: 20px;padding: 10px;}
+
+.center input::placeholder {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.center input:focus {
+  outline: none;
+}
+
+.search {
+  border: 2px solid white;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-inp {
+  color: #000;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.left .admin{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards-data img {
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+}
+
+.cards-data img:nth-child(4) {
+  border: 2px solid red;
+}
+
+.cards-data {
+  width: 300px;
+  height: auto;
+  background: rgb(5, 5, 10, .4);
+  backdrop-filter: blur(33px);
+  border-radius: 8px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid white;
+}
+
+.Data {
+  display: flex;
+  padding: 5px;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -50%;
+
+}
+
+.cards-data h1 {
+  font-size: 43px;
+  color: white;
+}
+
+.cards-data p {
+  font-size: 22px;
+  color: white;
+}
+
+.cards-data button {
+  width: 220px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .7s;
+}
+
+.cards-data button:hover {
+  background: #000;
+  color: white;
+}
