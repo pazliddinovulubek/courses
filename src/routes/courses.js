@@ -9,7 +9,7 @@ function Courses() {
         <div className="card">
           <h1>Frontend Bo'yicha <br /> Darsliklar</h1>
           <p>Biz bilan Html, Style, JavaScript, React.js O'rganing</p>
-          <button><Link to={'link'}>Bo'shladik</Link></button>
+          <button><Link className='btn-text' to={'link'}>Bo'shladik</Link></button>
         </div>
         <div className="card-img">
           <img src={mix} alt="" />

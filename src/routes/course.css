@@ -7,25 +7,33 @@
 .container {
   display: flex;
   justify-content: center;
-  gap: 100px;
-  margin-top: -50%;
+  margin: auto;
+  margin-top: 100px;
+  gap: 40px;
+}
+
+
+.btn-text {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
 }
 
 .card {
   width: 590px;
   padding: 15px;
   border-radius: 20px;
-  background: rgb(5, 5, 10, .4);
   backdrop-filter: blur(33px);
-
-
-
+  border: 2px solid wheat;
+  filter:drop-shadow( rgb(146, 73, 73) 10px 4px 10px );
 }
 
 .card p {
   font-size: 32px;
   margin-top: 50px;
   color: white;
+  font-style: italic; 
+  font-family: "Georgia", serif; 
 }
 
 .card h1 {
@@ -37,7 +45,6 @@
   width: 500px;
   border-radius: 10px;
 }
-
 .card button {
   width: 150px;
   height: 50px;

@@ -15,7 +15,7 @@
 }
 
 .cards-data {
-  width: 300px;
+  width: 400px;
   height: auto;
   background: rgb(5, 5, 10, .4);
   backdrop-filter: blur(33px);
@@ -31,8 +31,7 @@
   gap: 15px;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -50%;
-
+  margin-top: 100px;
 }
 
 .cards-data h1 {
@@ -53,10 +52,11 @@
   font-size: 22px;
   font-weight: 700;
   cursor: pointer;
-  transition: .7s;
+  transition: .1s;
 }
 
 .cards-data button:hover {
   background: #000;
   color: white;
+  border: 2px solid white;
 }
