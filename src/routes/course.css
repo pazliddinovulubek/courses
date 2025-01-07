@@ -54,3 +54,19 @@
   font-weight: 700;
   margin-top: 50px;
 }
+@media only screen and (max-width:400px){
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    margin-top: 100px;
+    gap: 40px;
+    justify-content: center;
+    place-items: center;
+
+  }
+  .card-img img,
+  .card{
+    width: 330px;
+  }
+}

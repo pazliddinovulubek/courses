@@ -112,7 +112,7 @@ nav {
   .center {
     position: absolute;
     top: 17%;
-    display: flex;
+    display: flex;  
     justify-content: center;
     margin: auto;
     left: 8%;
