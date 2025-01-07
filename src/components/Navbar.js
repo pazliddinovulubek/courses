@@ -17,7 +17,7 @@ function Navabar() {
       <div className="main-img">
         <nav>
           <img src={logo} alt="Logo" />
-          <div className={`center ${isMenuVisible ? 'active' : ''}`} style={{ opacity: isMenuVisible ? '1' : '0' }}>
+          <div className={`center ${isMenuVisible ? 'active' : ''}`}>
             <Link className='nav-p' to={'/'}>Bosh Sahifa</Link>
             <Link className='nav-p' to={'Courses'}>Kurslar</Link>
             <Link className='nav-p' to={'about'}>Platforma xaqida</Link>
